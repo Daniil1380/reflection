@@ -23,9 +23,6 @@ public class AnnotationReflection {
         System.out.println(generatedPerson);
         System.out.println("----------");
 
-
-
-
         Field[] fields = personClass.getDeclaredFields();
 
         for (Field field : fields) {
