@@ -5,6 +5,7 @@ public class Person {
 
     private String surname;
 
+    @MyFirstAnnotation(value = "hello")
     private String city;
 
     public void die() {
